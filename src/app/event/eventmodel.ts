@@ -1,0 +1,3 @@
+class eventmodel{
+    name:string;
+}
