@@ -1,3 +1,0 @@
-class eventmodel{
-    name:string;
-}

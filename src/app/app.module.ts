@@ -4,12 +4,12 @@ import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { EventComponent } from './event/event.component';
+import { CheckComponent } from './check/check.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EventComponent,
+    CheckComponent
   ],
   imports: [
     BrowserModule,
@@ -18,6 +18,6 @@ import { EventComponent } from './event/event.component';
     ReactiveFormsModule
   ],
   providers: [],
-  bootstrap: [EventComponent]
+  bootstrap: [CheckComponent]
 })
 export class AppModule { }
